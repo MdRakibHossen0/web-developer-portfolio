@@ -1,0 +1,176 @@
+/* -normal uniq name dici */
+.open-sans-norlam {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth"100;
+}
+
+/* shared style */
+.text-primary {
+    color: #fd6e0a;
+}
+
+.secondary-bg {
+    background-color: #fff8f3;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #fd6e0a;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* header */
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    max-width: 1400px;
+}
+
+/* bannaer style */
+
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    width: 600px;
+    height: 60px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 38px 0 230px;
+}
+
+.banner-image-profile-picture {
+    height: 100%;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0% auto;
+}
+
+/* about styles */
+
+.about {
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 146px;
+}
+
+.about-info {
+
+    padding: 115px 157px 147px 156px;
+
+}
+
+.item-description {
+    font-weight: bold;
+}
+
+.about-items {
+    font-weight: ;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* skills styles */
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills-title {
+    padding-top: 114px;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-description {
+    font-size: 18px;
+    padding-bottom: 50px;
+    margin: 0 110px;
+}
