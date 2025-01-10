@@ -145,7 +145,6 @@ main {
 }
 
 .about-items {
-    font-weight: ;
     display: flex;
     justify-content: space-around;
 }
