@@ -195,6 +195,11 @@ main {
     gap: 24px;
 }
 
+.main-section-title {
+    padding-left: 20px;
+    font-size: 24px;
+
+}
 .resume-column-title {
     font-size: 30px;
     font-weight: bold;
@@ -271,11 +276,29 @@ footer textarea {
         flex-direction: column;
     }
 
+
+
     footer, .about-info {
         padding: 20px;
     }
 
-    nav{
+    .experience-description {
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(117, 117, 117, 1);
+        width: 100%;
+        height: 84px;
+        padding-bottom: 30px;
+        margin-right: 47px;
+
+    }
+
+    .resume-container {
+
+        margin: 20px;
+    }
+
+    nav {
 
         margin: 0px;
     }
@@ -348,5 +371,12 @@ footer textarea {
     .open-sans-norlam {
         margin: 0px;
 
+    }
+
+    .skills-description {
+        font-size: 18px;
+        padding-bottom: 50px;
+        margin: 0 50px;
+        text-align: center;
     }
 }
